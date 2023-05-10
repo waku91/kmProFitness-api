@@ -11,6 +11,7 @@ RUN npm install --only=dev
 
 COPY /app/index.js ./
 RUN npm install -g nodemon
+RUN npm install -g sequelize-cli 
 RUN mkdir -p /home/appuser && chown -R appuser:appuser /home/appuser && chmod -R 755 /home/appuser
 RUN apt-get update && apt-get install -y libcurl4-openssl-dev
 
