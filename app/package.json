@@ -34,6 +34,7 @@
     "mysql2": "^3.3.0",
     "nodemon": "^2.0.21",
     "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
     "sequelize": "^6.31.1",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.6.3"
