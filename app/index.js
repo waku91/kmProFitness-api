@@ -1,8 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const swaggerUI = require('swagger-ui-express');
-const userRoutes = require('./src/routes/userRoute');
-const authRoutes = require('./src/routes/authRoute')
+const userRoutes = require('./src/routes/user');
+const authRoutes = require('./src/routes/auth')
 
 dotenv.config();
 
@@ -28,7 +28,7 @@ app.use(cors());
 app.use('/api/docs', swaggerUI.serve, swaggerUI.setup(swaggerSpect));
 
 
-app.use('/api/users', userRoutes);
+//app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes)
 
 app.listen(port, () => {
