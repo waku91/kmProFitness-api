@@ -1,5 +1,4 @@
-const userRepository = require('../repositories/userRepository');
-const UserModel = require('../models/user');
+/*const UserModel = require('../models/user');
 
 const createUser = async (body) => {
     try {
@@ -33,4 +32,4 @@ const findUserByEmail = async (email) => {
     }
 };
 
-module.exports = { createUser, findUserByUsername, findUserByEmail };
+module.exports = { createUser, findUserByUsername, findUserByEmail };*/
